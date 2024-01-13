@@ -15,7 +15,7 @@ export const RESUME_DATA = {
   summary:
     "As a Front End Developer, I have to maintaing and developing product and web app. I take my responsibility effectively, and working together with my solid team, I work mostly with TypeScript/Javascript, React. I have over 1.5 years of experience working at PT. Bussan Auto Finance and currently continuing studies at BINUS University Online majoring in Computer Science.",
   avatarUrl: "https://github-production-user-asset-6210df.s3.amazonaws.com/63460549/293489904-fed7ad9f-9f88-4fe5-ac2c-44085fc8c242.jpg",
-  // personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "",
   contact: {
     email: "mohamadelabror70@gmail.com",
     social: [
@@ -30,6 +30,7 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
     ],
+    tel:""
   },
   education: [
     {
@@ -85,7 +86,7 @@ export const RESUME_DATA = {
       // logo: MonitoLogo,
       link: {
         // label: "baf.id",
-        // href: "https://baf.id/",
+        href: "",
       },
     },
     {
@@ -96,7 +97,7 @@ export const RESUME_DATA = {
       logo: MonitoLogo,
       // link: {
       //   // label: "baf.id",
-      //   // href: "https://baf.id/",
+        href: "",
       // },
     },
   ],
