@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   about:
   "Front End Developer",
   summary:
-    "As a Front End Developer, I have to maintaing and developing product and web app. I take my responsibility effectively, and working together with my solid team, I work mostly with TypeScript/Javascript, React. I have over 1.5 years of experience working at PT. Bussan Auto Finance and currently continuing studies at BINUS University Online majoring in Computer Science.",
+    "As a Front End Developer, I have to maintaing and developing product and web app. I take my responsibility effectively, and working together with my solid team, I work mostly with TypeScript/Javascript, React. I have over 1.9 years of experience working at PT. Bussan Auto Finance and currently continuing studies at BINUS University Online majoring in Computer Science.",
   avatarUrl: "https://github-production-user-asset-6210df.s3.amazonaws.com/63460549/293489904-fed7ad9f-9f88-4fe5-ac2c-44085fc8c242.jpg",
   personalWebsiteUrl: "",
   contact: {
@@ -41,7 +41,7 @@ export const RESUME_DATA = {
     },
     {
       school: "Senior High School State 6 of Jakarta",
-      degree: "High School",
+      degree: "High School Diploma in Natural Science (MIPA)",
       start: "2018",
       end: "2021",
     },
