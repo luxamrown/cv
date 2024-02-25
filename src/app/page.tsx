@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { Fragment } from "react";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -133,6 +134,62 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {work.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Organization</h2>
+          {RESUME_DATA.organization.map((work) => {
+            return (
+              <Card key={work.company}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={work.link}>
+                        {work.company}
+                      </a>
+
+                      <span className="inline-flex gap-x-1">
+                        {work.badges.map((badge) => (
+                          <Badge
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={badge}
+                          >
+                            {badge}
+                          </Badge>
+                        ))}
+                      </span>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {work.start} - {work.end}
+                    </div>
+                  </div>
+
+                  <h4 className="font-mono text-sm leading-none">
+                    {work.title}
+                  </h4>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {
+                    work.description.map((desc, i) => (
+                      <Fragment key={i}>
+                        {desc}
+                        {
+                          i == 0 ?
+                          <Fragment>
+                            <br></br>
+                            <br></br>
+                          </Fragment>
+                          :
+                          <br></br>
+                        }
+                      </Fragment>
+                    ))
+                  }
+                  {/* {work.description} */}
                 </CardContent>
               </Card>
             );

@@ -56,7 +56,22 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Now",
       description:
-        "Develop new features based on requirements, Implemented of REST API, Slicing from Figma design",
+        "Develop new feature and services based on requirements, implemented of REST API, s licing from Figma design",
+    }
+  ],
+  organization: [
+    {
+      company: "Bina Nusantara Computer Club (BNCC)",
+      link: "https://bncc.net",
+      badges: [],
+      title: "Activist",
+      // logo: ParabolLogo,
+      start: "2023",
+      end: "Now",
+      description:["Bina Nusantara Computer Club (BNCC) is a computer-based student organization at Binus University. BNCC is a place for students to develop soft skills and hard skills because it is supported by several products such as IT learning courses, online media portals, software house and several IT-based events.", 
+      "- Enrolled UI/UX Course",
+      "- Contributed as a Back End dev in Technology Project Member, develop server side logic and managing git repository",
+      ]
     }
   ],
   skills: [
@@ -99,6 +114,17 @@ export const RESUME_DATA = {
       //   // label: "baf.id",
         href: "",
       // },
+    },
+    {
+      title: "Hackathon Website",
+      techStack: ["Back End Developer"],
+      description:
+        "Develop a final project in the BNCC Technology Project Member program to create a website about hackathon with laravel. Contributed as back end and set up the git repository for working system",
+      // logo: MonitoLogo,
+      link: {
+        // label: "baf.id",
+        href: "https://github.com/luxamrown/tpm-be-bncc",
+      },
     },
   ],
 } as const;
