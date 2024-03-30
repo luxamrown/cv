@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Now",
       description:
-        "Develop new feature and services based on requirements, implemented of REST API, slicing from Figma design",
+        "Develop new feature and services based on requirements, develop client side logic, implemented of REST API, slicing design from Figma design",
     }
   ],
   organization: [
