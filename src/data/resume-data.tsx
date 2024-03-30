@@ -70,8 +70,10 @@ export const RESUME_DATA = {
       end: "Now",
       description:["Bina Nusantara Computer Club (BNCC) is a computer-based student organization at Binus University. BNCC is a place for students to develop soft skills and hard skills because it is supported by several products such as IT learning courses, online media portals, software house and several IT-based events.", 
       "- Enrolled UI/UX Course",
-      "- Contributed as a Back End dev in Technology Project Member, develop server side logic and managing git repository",
-      ]
+      "- Completing back end course and contributed as a back end dev in Technology Project Member final project, develop server side logic and managing git repository",
+      "- Attended soft-skills seminars and leadership training",
+      "- Became a committee of Technoscape 2024 at Technology and Registration Division as a back end developer"  
+    ]
     }
   ],
   skills: [
