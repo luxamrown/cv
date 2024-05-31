@@ -11,9 +11,9 @@ export const RESUME_DATA = {
   // about:
   //   "Front End Developer focused on building products with extra attention to detail",
   about:
-  "Front End Developer",
+  "Software Engineer Staff",
   summary:
-    "As a Front End Developer, I have to maintaing and developing product and web app. I take my responsibility effectively, and working together with my solid team, I work mostly with TypeScript/Javascript, React. I have over 2 years of experience working at PT. Bussan Auto Finance and currently continuing studies at BINUS University Online majoring in Computer Science.",
+    "As a Software Engineer Staff, I have to maintaing and developing product and web app. I take my responsibility effectively, and working together with my solid team, I work mostly with TypeScript/Javascript, React. I have over 2 years of experience working at PT. Bussan Auto Finance and currently continuing studies at BINUS University Online majoring in Computer Science.",
   avatarUrl: "/profile.jpg",
   personalWebsiteUrl: "",
   contact: {
@@ -51,7 +51,7 @@ export const RESUME_DATA = {
       company: "PT. Bussan Auto Finance",
       link: "https://baf.id",
       badges: ["Full Time"],
-      title: "Software Developer",
+      title: "Software Engineer Staff",
       // logo: ParabolLogo,
       start: "2022",
       end: "Now",
@@ -86,7 +86,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "BAF Website",
-      techStack: ["Front End Developer"],
+      techStack: ["Front End"],
       description:
         "Developing and maintaing main portal website for company employee. Contains company news, articles, policy, information, etc. Presented by PT. Bussan Auto Finance",
       // logo: MonitoLogo,
@@ -97,7 +97,7 @@ export const RESUME_DATA = {
     },
     {
       title: "BAF Internal Website",
-      techStack: ["Front End Developer"],
+      techStack: ["Front End"],
       description:
         "Developing and maintaing main website for company profile, company product information, and some services presented by PT. Bussan Auto Finance",
       // logo: MonitoLogo,
@@ -108,7 +108,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Internal BAF Content Management System",
-      techStack: ["Front End Developer"],
+      techStack: ["Front End"],
       description:
         "Developing and maintaing Content Management System website for company provide business requirements",
       logo: MonitoLogo,
@@ -119,7 +119,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Hackathon Website",
-      techStack: ["Back End Developer"],
+      techStack: ["Back End"],
       description:
         "Develop a final project in the BNCC Technology Project Member program to create a website about hackathon with laravel. Contributed as back end and set up the git repository for working system",
       // logo: MonitoLogo,
