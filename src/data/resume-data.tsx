@@ -77,11 +77,11 @@ export const RESUME_DATA = {
     }
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
+    "Javascript/Typescript",
     "React/Next.js",
     "Golang",
     "Laravel",
+    "Flutter"
   ],
   projects: [
     {
