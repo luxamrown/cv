@@ -72,7 +72,8 @@ export const RESUME_DATA = {
       "- Enrolled UI/UX Course",
       "- Completing back end course and contributed as a back end dev in Technology Project Member final project, develop server side logic and managing git repository",
       "- Attended soft-skills seminars and leadership training",
-      "- Became a committee of Technoscape 2024 at Technology and Registration Division as a back end developer"  
+      "- Became a committee of Technoscape 2024 at Technology and Registration Division as a back end developer",
+      "- Trainer for Front End workshop at BNCC Codesign 2024 and attended by more than 800 participants"
     ]
     }
   ],
@@ -82,6 +83,11 @@ export const RESUME_DATA = {
     "Golang",
     "Laravel",
     "Flutter"
+  ],
+  hobbies: [
+    "Reading a Book",
+    "Playing Musical Instrument",
+    "Workout"
   ],
   projects: [
     {
