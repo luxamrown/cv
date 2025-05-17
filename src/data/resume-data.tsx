@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   about:
   "Software Engineer Staff",
   summary:
-    "As a Software Engineer Staff, I have to maintaing and developing product and web app. I take my responsibility effectively, and working together with my solid team, I work mostly with TypeScript/Javascript, React. I have over 2 years of experience working at PT. Bussan Auto Finance and currently continuing studies at BINUS University Online majoring in Computer Science.",
+    "As a Software Engineer Staff, I have to maintaing and developing product and web app. I take my responsibility effectively, and working together with my solid team, I work mostly with TypeScript/Javascript, React. I have over 3 years of experience working at PT. Bussan Auto Finance and currently continuing studies at BINUS University Online majoring in Computer Science.",
   avatarUrl: "/profile.jpg",
   personalWebsiteUrl: "",
   contact: {
