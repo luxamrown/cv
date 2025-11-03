@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   // about:
   //   "Front End Developer focused on building products with extra attention to detail",
   about:
-  "Software Engineer Staff",
+  "Software Engineer",
   summary:
     "As a Software Engineer Staff, I have to maintaing and developing product and web app. I take my responsibility effectively, and working together with my solid team, I work mostly with TypeScript/Javascript, React. I have over 3 years of experience working at PT. Bussan Auto Finance and currently continuing studies at BINUS University Online majoring in Computer Science.",
   avatarUrl: "/profile.jpg",
@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       title: "Activist",
       // logo: ParabolLogo,
       start: "2023",
-      end: "Now",
+      end: "2025",
       description:["Bina Nusantara Computer Club (BNCC) is a computer-based student organization at Binus University. BNCC is a place for students to develop soft skills and hard skills because it is supported by several products such as IT learning courses, online media portals, software house and several IT-based events.", 
       "- Enrolled UI/UX Course",
       "- Completing back end course and contributed as a back end dev in Technology Project Member final project, develop server side logic and managing git repository",
@@ -79,10 +79,12 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Javascript/Typescript",
-    "React/Next.js",
+    "React",
     "Golang",
     "Laravel",
-    "Flutter"
+    "Flutter",
+    "Rust",
+    "Solidity"
   ],
   hobbies: [
     "Reading a Book",
@@ -94,7 +96,7 @@ export const RESUME_DATA = {
       title: "BAF Website",
       techStack: ["Front End"],
       description:
-        "Developing and maintaing main portal website for company employee. Contains company news, articles, policy, information, etc. Presented by PT. Bussan Auto Finance",
+        "Developing and maintaining main portal website for company employee. Contains company news, articles, policy, information, etc. Presented by PT Bussan Auto Finance.",
       // logo: MonitoLogo,
       link: {
         label: "baf.id",
@@ -105,7 +107,7 @@ export const RESUME_DATA = {
       title: "BAF Internal Website",
       techStack: ["Front End"],
       description:
-        "Developing and maintaing main website for company profile, company product information, and some services presented by PT. Bussan Auto Finance",
+        "Developing and maintaining main website for company profile, company product information, and some services presented by PT Bussan Auto Finance.",
       // logo: MonitoLogo,
       link: {
         // label: "baf.id",
@@ -116,22 +118,33 @@ export const RESUME_DATA = {
       title: "Internal BAF Content Management System",
       techStack: ["Front End"],
       description:
-        "Developing and maintaing Content Management System website for company provide business requirements",
-      logo: MonitoLogo,
+        "Developing and maintaining a CMS website to support the company's business requirements.",
+      // logo: MonitoLogo,
       // link: {
       //   // label: "baf.id",
         href: "",
       // },
     },
     {
-      title: "Hackathon Website",
-      techStack: ["Back End"],
+      title: "BAF Stand Alone Web Application",
+      techStack: ["Front End"],
       description:
-        "Develop a final project in the BNCC Technology Project Member program to create a website about hackathon with laravel. Contributed as back end and set up the git repository for working system",
+        "Developing and maintaining standalone web applications for external business integration with PT Bussan Auto Finance services.",
+      // logo: MonitoLogo,
+      // link: {
+      //   // label: "baf.id",
+        href: "",
+      // },
+    },
+    {
+      title: "TechnoScape 2025",
+      techStack: ["Lead", "Full-stack"],
+      description:
+        "Built the event website and supporting system infrastructure for TechnoScape 2025 by BNCC (Bina Nusantara Computer Club).",
       // logo: MonitoLogo,
       link: {
         // label: "baf.id",
-        href: "https://github.com/luxamrown/final-tpm",
+        // href: "https://github.com/luxamrown/final-tpm",
       },
     },
   ],
