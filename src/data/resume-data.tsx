@@ -144,7 +144,7 @@ export const RESUME_DATA = {
       // logo: MonitoLogo,
       link: {
         // label: "baf.id",
-        // href: "https://github.com/luxamrown/final-tpm",
+        href: "",
       },
     },
   ],
