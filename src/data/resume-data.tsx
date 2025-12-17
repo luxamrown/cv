@@ -50,8 +50,8 @@ export const RESUME_DATA = {
     {
       company: "PT. Bussan Auto Finance",
       link: "https://baf.id",
-      badges: ["Full Time"],
-      title: "Software Engineer Staff",
+      badges: ["Full Time", "Contract"],
+      title: "Front End Engineer",
       // logo: ParabolLogo,
       start: "2022",
       end: "Now",
